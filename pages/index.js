@@ -33,15 +33,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>Otis</title>
+        <title>Otis James</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Steve - AI </h1>
+            <h1>TM-Cormorant </h1>
           </div>
           <div className="header-subtitle">
-            <h2>Type for Knowledge</h2>
+            <h2>Welcome to my Portfolio site</h2>
           </div>
         </div>
         <div className="prompt-container">
