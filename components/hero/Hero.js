@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AiOutlineSearch } from "react-icons/ai";
+//import { AiOutlineSearch } from "react-icons/ai";
 
 const video = "/matrix.mp4";
 
@@ -12,21 +12,10 @@ function Hero() {
       </video>
       <div className="overlay"></div>
       <div className="content">
-        <h1>Top 1% Resource</h1>
-        <h2>Your Machine Learning Database</h2>
-        <form className="form">
-          <div>
-            <input
-              type="text"
-              placeholder="Search Hash 0x521502eFDF4C4685c126b7Bb16FD81eB8705B381"
-            />
-          </div>
-          <div>
-            <button>
-              <AiOutlineSearch className="icon" />
-            </button>
-          </div>
-        </form>
+        <h1>
+          Web3 Development | Building dApps for the future | Prompt Engineering
+        </h1>
+        <h2>Be Excelent To Each Other</h2>
       </div>
     </div>
   );

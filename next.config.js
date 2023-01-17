@@ -1,7 +1,7 @@
 // /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-// };
+const nextConfig = {
+  reactStrictMode: true,
+};
 // const withImages = require("next-images");
 
 // module.exports = nextConfig / withImages();
@@ -9,7 +9,8 @@
 const withCSS = require("@zeit/next-css");
 const withImages = require("next-images");
 
-module.exports = withCSS(
+module.exports = nextConfig / withImages();
+withCSS(
   withImages({
     reactStrictMode: true,
     webpack(config) {

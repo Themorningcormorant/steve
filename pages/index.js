@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
+//import BackgroundImg from "./public/head2.jpg";
 
 const Home = () => {
   const [userInput, setUserInput] = useState("");
@@ -38,10 +39,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>TM-Cormorant </h1>
+            <h1>Steve-AI </h1>
           </div>
           <div className="header-subtitle">
-            <h2>Welcome to my Portfolio site</h2>
+            <h2>Ask Something</h2>
           </div>
         </div>
         <div className="prompt-container">
