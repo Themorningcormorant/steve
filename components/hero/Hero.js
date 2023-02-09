@@ -2,7 +2,7 @@ import React from "react";
 
 //import { AiOutlineSearch } from "react-icons/ai";
 
-const video = "/matrix.mp4";
+const video = "/rostis.mp4";
 
 function Hero() {
   return (
@@ -12,10 +12,8 @@ function Hero() {
       </video>
       <div className="overlay"></div>
       <div className="content">
-        <h1>
-          Web3 Development | Building dApps for the future | Prompt Engineering
-        </h1>
-        <h2>Be Excelent To Each Other</h2>
+        <h1>Welcome to LmaAI Research League, Ongoing project, More To Come</h1>
+        <h2>Scroll Down Ask Lma Your Question </h2>
       </div>
     </div>
   );
