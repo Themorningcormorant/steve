@@ -39,10 +39,10 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Steve-A I </h1>
+            <h1>LmaAI </h1>
           </div>
           <div className="header-subtitle">
-            <h2>Ask Something</h2>
+            <h2></h2>
           </div>
         </div>
         <div className="prompt-container">
