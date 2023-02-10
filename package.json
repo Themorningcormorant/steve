@@ -26,5 +26,16 @@
   },
   "devDependencies": {
     "file-loader": "^6.2.0"
-  }
+  },
+  "description": "<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "Themorningcormorant"
+  },
+  "keywords": [
+    "LmaAI"
+  ],
+  "author": "Otis",
+  "license": "ISC"
 }
