@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Head from "next/head";
-//import BackgroundImg from "./public/head2.jpg";
 
 const Home = () => {
   const [userInput, setUserInput] = useState("");
@@ -47,7 +46,7 @@ const Home = () => {
         </div>
         <div className="prompt-container">
           <textarea
-            placeholder="start typing your question here im just typing random stuff here for a test ..."
+            placeholder="start typing your question here..."
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}

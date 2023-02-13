@@ -126,7 +126,7 @@ textarea {
 }
 
 .prompt-box:focus {
-  border-color: rgba(255, 255, 255, 0.75);
+  border-color: rgba(136, 134, 134, 0.75);
 }
 
 .prompt-buttons {
@@ -285,7 +285,7 @@ textarea {
   max-width: 1200px;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 120%;
 }
 
 .output-header-container {
@@ -327,9 +327,38 @@ textarea {
 }
 
 .output-content p {
+  border-bottom-width: 1px;
+  border-color: rgba(192, 114, 24, 0.678);
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 1px;
+  place-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(21, 21, 21, 0.836);
+  border-radius: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column nowrap;
+  gap: 10px;
+  height: 150px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 610px;
+  max-width: 1200px;
+  will-change: transform;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 0px;
+  line-height: 1.6em;
   text-align: center;
-  white-space: pre-line;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: none;
 }
 
 @media (min-width: 810px) and (max-width: 1199px) {
@@ -468,7 +497,7 @@ li {
     justify-content: space-between;
     /* align-items: center; */
     /* color: rgba(255, 255, 255, .95); */
-    background-color: #f5f5f5;
+    background-color: #aaaaaa;
     transition: 0.3s;
     color: #000;
   }
