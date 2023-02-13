@@ -33,12 +33,12 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>Otis James</title>
+        <title>Lma-AI</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>LmaAI </h1>
+            <h1>Lma-AI </h1>
           </div>
           <div className="header-subtitle">
             <h2></h2>
