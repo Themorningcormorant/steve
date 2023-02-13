@@ -297,7 +297,7 @@ textarea {
   gap: 16px;
   height: min-content;
   overflow: hidden;
-  padding: 0px;
+  padding: 50px;
   position: relative;
   width: 100%;
 }
@@ -314,16 +314,6 @@ textarea {
   text-decoration: none;
   text-transform: none;
   margin: 0;
-}
-
-.output-content {
-  outline: none;
-  display: flex;
-  /* max-width: 25%; */
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  transform: none;
 }
 
 .output-content p {
@@ -423,6 +413,10 @@ textarea {
 
   .prompt-box {
     width: 100%;
+  }
+
+  .output-content {
+    max-width: 400px;
   }
 }
 
